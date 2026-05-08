@@ -1,0 +1,17 @@
+{
+  "name": "cyber-threat-detector-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node riskAnalyzer.test.js && node screenshotAnalyzer.test.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "multer": "^2.1.1",
+    "tesseract.js": "^7.0.0"
+  }
+}
